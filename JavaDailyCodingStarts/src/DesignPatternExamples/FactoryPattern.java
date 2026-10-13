@@ -1,4 +1,16 @@
 package DesignPatternExamples;
+
+/*
+* Factory is a creational design pattern that encapsulates object creation
+* and returns the appropriate object based on the requirement.
+
+For example, in a notification system, a Factory can create Email, SMS, or WhatsApp notification objects.
+* This centralizes object-creation logic and reduces coupling between the client and concrete classes.
+*
+* */
+
+
+
 interface Notification{
     void sendNotification();
 }

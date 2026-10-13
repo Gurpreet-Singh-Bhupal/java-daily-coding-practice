@@ -1,5 +1,13 @@
 package DesignPatternExamples;
+/*
+*
+Builder is a creational design pattern used to construct complex objects step by step,
+especially when they have multiple optional parameters.
 
+For example, when creating a User from form data, name and email may be mandatory,
+while phone and address are optional. Builder allows us to set required fields first,
+configure optional fields, and finally create the User object using build().
+* */
 class User{
     private final String name;
     private final String email;
