@@ -5,7 +5,7 @@ import java.util.*;
 public class LongestSubstring {
 
     static void main() {
-        System.out.println(getLongestSubstring("okakykik"));
+        System.out.println(getLongestSubstring("okaykio"));
     }
 
     public static String getLongestSubstring(String st){
