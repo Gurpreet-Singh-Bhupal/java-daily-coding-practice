@@ -1,4 +1,4 @@
-package CollectionAndOtherDSACoding;
+package CollectionAndOtherDSACoding.StringQuestions;
 import java.util.*;
 
 public class Anagram {
